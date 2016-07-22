@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/x"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@drawable/o"
+        android:maxLevel="1" />
+    <item
+        android:drawable="@drawable/empty"
+        android:maxLevel="2" />
+    <item
+        android:drawable="@drawable/available"
+        android:maxLevel="3" />
+</level-list>

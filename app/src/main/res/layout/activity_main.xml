@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_deep_teal_500"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_marginTop="175dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/new_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="@string/new_game"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/exit"
+        android:layout_marginTop="32dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/new_button"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

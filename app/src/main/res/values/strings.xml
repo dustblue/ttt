@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TTT</string>
+    <string name="title">Ultimate Tic Tac Toe</string>
+    <string name="action_settings">Settings</string>
+    <string name="winner">%1$s is the winner</string>
+    <string name="exit">Exit</string>
+    <string name="new_game">New Game</string>
+</resources>
